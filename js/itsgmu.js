@@ -191,6 +191,7 @@ $(function(){
 				$('#video').get(0).play(); 
 			}	
 		},
+		resize: true,
 	});
 
 
