@@ -171,6 +171,9 @@
   }
 }
 @media (max-width: 414px) {
+  .slideOne_width_right img {
+    width: 12rem;
+  }
   .slideOne_width_right > div .pf-md-h {
     font-size: 30px;
   }
