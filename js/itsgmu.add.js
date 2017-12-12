@@ -8,3 +8,7 @@ $(function(){
        m.toggleClass('mm-rotate');
    })
 });
+
+$('#thinkWord').on('blur', function(){
+    $(window).trigger("resize");
+});
