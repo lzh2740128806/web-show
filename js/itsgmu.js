@@ -85,7 +85,7 @@ $(function(){
 		num=0, borNum = parseInt($('#headPic').css('border-width')),timeout;
 	
 	//让弹幕位置出现在头像下侧
-	$('.bullet').css({'top':_height/2,'width':_width - borNum*2 + 'px','margin-left':borNum + 'px'});
+	$('.bullet').css({'top':_height/2,'margin':'0 ' + borNum + 'px'});
 	
 	//弹幕数据模拟
 	contentArr = ['积目','似的士大夫','啊实打实 阿斯顿','萨达','阿三大苏打','阿斯顿阿斯斯顿阿斯斯顿阿斯斯顿阿斯顿？','反对法地方','3微软微软','更换','时代发'];
@@ -152,7 +152,7 @@ $(function(){
 				//然后删除顶层img  露出下层追加的img  并把顶层img的id和样式赋值给底层img
 				$('#headPic').remove();
 				$('.sndPic').attr('id','headPic').removeClass('sndPic').addClass('headPic');
-			},800)
+			},800);
 			//200ms首先把追加内容加入标签
 			$('.header-pic').append(_imgPic);
 		},200);
@@ -192,5 +192,40 @@ $(function(){
 			}	
 		},
 	});
+
+
+
+
+/***************************/
+
+	;(function(){
+		var src = [];
+		var img = $('.mobilenone .headTop-girl >img');
+		img.each(function (i,el) {
+			src.push(el.src);
+        });
+
+
+
+		ele();
+		//点击头像添加旋转
+		$('#headPic').addClass('head-rotate');
+		//向img顶层元素后追加一个img
+		var _imgPic = $('<img id="sndPic" class="sndPic" src="'+$(this).context.src+'">');
+
+		//点击头像更换img背景
+		$('.img-bg-border').css('background','url('+$(this).context.src+') no-repeat')
+
+		setTimeout(function () {
+			setTimeout(function () {
+				//然后删除顶层img  露出下层追加的img  并把顶层img的id和样式赋值给底层img
+				$('#headPic').remove();
+				$('.sndPic').attr('id','headPic').removeClass('sndPic').addClass('headPic');
+			},800);
+			//200ms首先把追加内容加入标签
+			$('.header-pic').append(_imgPic);
+		},200);
+	}
+	)();
 
 });

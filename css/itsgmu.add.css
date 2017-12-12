@@ -215,3 +215,144 @@
     width: 8rem;
   }
 }
+@media (max-width: 1366px) {
+  #about-us .container {
+    width: auto;
+  }
+  #about-us .header,
+  #about-us .header-pic {
+    height: 240px;
+  }
+  #about-us .team-row {
+    padding: 0 5%;
+    text-align: center;
+  }
+  #about-us .team-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+  }
+  #about-us .team-wrap:first-child {
+    width: 20%;
+  }
+  #about-us .team-wrap:nth-child(2) {
+    width: 70%;
+  }
+  #about-us .img-text-model {
+    margin: 10px auto 0;
+  }
+  #about-us .title-name {
+    font-size: 25px;
+    margin: 0;
+  }
+  #about-us .title-gender {
+    font-size: 20px;
+    margin: 0;
+  }
+  #about-us .title-age {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  #about-us .header,
+  #about-us .header-pic {
+    height: 240px;
+  }
+  #about-us .team-wrap:first-child {
+    width: 30%;
+  }
+  #about-us .team-wrap:nth-child(2) {
+    width: 65%;
+  }
+}
+@media (max-width: 768px) {
+  #about-us .header,
+  #about-us .header-pic {
+    height: 215px;
+  }
+}
+@media (max-width: 414px) {
+  #thinkWord {
+    margin-bottom: 10px;
+  }
+  #about-us .header,
+  #about-us .header-pic {
+    height: 260px;
+  }
+  #about-us .team-wrap {
+    margin: 0 auto;
+  }
+  #about-us .team-wrap .team-title {
+    margin-top: 20px;
+    margin-bottom: -5px;
+  }
+  #about-us .team-wrap .team-member.mobilenone {
+    display: none;
+  }
+  #about-us .team-wrap .topUser-slide {
+    margin-left: 0;
+  }
+  #about-us .team-wrap .topUser-title {
+    margin-top: 0;
+  }
+  #about-us .team-wrap .topUser-title li strong,
+  #about-us .team-wrap .topUser-title li span {
+    font-size: 25px;
+  }
+  #about-us .team-wrap .subheading {
+    margin-top: 1em;
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  #about-us .team-wrap:first-child {
+    width: 70%;
+  }
+  #about-us .team-wrap:nth-child(2) {
+    width: 90% !important;
+  }
+}
+@media (max-width: 375px) {
+  #about-us .header,
+  #about-us .header-pic {
+    height: 240px;
+  }
+  #about-us .team-wrap:first-child {
+    width: 65%;
+  }
+}
+@media (max-width: 320px) {
+  #about-us .header,
+  #about-us .header-pic {
+    height: 200px;
+  }
+  #about-us .team-wrap .team-title {
+    margin-top: 10px;
+  }
+  #about-us .team-wrap .topUser-title li strong,
+  #about-us .team-wrap .topUser-title li span {
+    font-size: 16px;
+  }
+  #about-us .team-wrap .topUser-title h2 {
+    margin: 0 0 5px;
+  }
+  #about-us .team-wrap .subheading {
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 1.5em;
+  }
+  #about-us .title-name {
+    font-size: 20px;
+    margin: 0;
+  }
+  #about-us .title-gender {
+    font-size: 14px;
+    margin: 0;
+  }
+  #about-us .title-age {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+}
