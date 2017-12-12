@@ -8,7 +8,3 @@ $(function(){
        m.toggleClass('mm-rotate');
    })
 });
-
-window.onresize = function(){
-    alert(document.querySelector('.section').offsetWidth + ':' + document.querySelector('.section').offsetHeight)
-}

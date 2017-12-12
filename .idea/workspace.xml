@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfdf0a62-21ce-4ce9-ab74-ffbafde19034" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/itsgmu.add.css" afterPath="$PROJECT_DIR$/css/itsgmu.add.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/itsgmu.add.less" afterPath="$PROJECT_DIR$/css/itsgmu.add.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/itsgmu.add.js" afterPath="$PROJECT_DIR$/js/itsgmu.add.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +18,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.56113905">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="itsgmu.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="itsgmu.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/itsgmu.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="527">
@@ -66,11 +64,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="itsgmu.add.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="itsgmu.add.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/itsgmu.add.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -180,8 +178,8 @@
         <option value="$PROJECT_DIR$/css/itsgmu.add.cdd.less" />
         <option value="$PROJECT_DIR$/itsgmu.html" />
         <option value="$PROJECT_DIR$/js/itsgmu.js" />
-        <option value="$PROJECT_DIR$/js/itsgmu.add.js" />
         <option value="$PROJECT_DIR$/css/itsgmu.add.less" />
+        <option value="$PROJECT_DIR$/js/itsgmu.add.js" />
       </list>
     </option>
   </component>
@@ -277,12 +275,12 @@
       <updated>1512994424006</updated>
       <workItem from="1512994428728" duration="1832000" />
       <workItem from="1512996421860" duration="12886000" />
-      <workItem from="1513045964846" duration="14605000" />
+      <workItem from="1513045964846" duration="14836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29323000" />
+    <option name="totallyTimeSpent" value="29554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -546,14 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/itsgmu.add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itsgmu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -614,6 +604,14 @@
             <element signature="e#4944#5017#0" expanded="false" />
             <element signature="e#5169#5643#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/itsgmu.add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
