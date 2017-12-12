@@ -45,6 +45,28 @@
     margin-bottom: 0;
   }
 }
+@media (max-width: 414px) {
+  .logo-wrap.shrink > a {
+    height: 40px;
+  }
+  .mobile-menu {
+    padding: 7px 15px 0;
+    width: 30px;
+    height: 33px;
+    box-sizing: content-box;
+    transition: .3s linear;
+  }
+  .mobile-menu span {
+    display: block;
+    margin: 5px 0;
+    height: 2px;
+    background: #fff;
+    border-radius: 2px;
+  }
+  .top-margin {
+    margin-top: 40px;
+  }
+}
 #video {
   height: 100%;
   object-fit: cover;
