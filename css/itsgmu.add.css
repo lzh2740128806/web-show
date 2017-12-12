@@ -279,7 +279,7 @@
   }
   #about-us .header,
   #about-us .header-pic {
-    height: 260px;
+    height: 240px;
   }
   #about-us .team-wrap {
     margin: 0 auto;
@@ -307,7 +307,7 @@
     line-height: 1.5em;
   }
   #about-us .team-wrap:first-child {
-    width: 70%;
+    width: 65%;
   }
   #about-us .team-wrap:nth-child(2) {
     width: 90% !important;
@@ -316,16 +316,16 @@
 @media (max-width: 375px) {
   #about-us .header,
   #about-us .header-pic {
-    height: 240px;
+    height: 220px;
   }
   #about-us .team-wrap:first-child {
-    width: 65%;
+    width: 60%;
   }
 }
 @media (max-width: 320px) {
   #about-us .header,
   #about-us .header-pic {
-    height: 200px;
+    height: 180px;
   }
   #about-us .team-wrap .team-title {
     margin-top: 10px;

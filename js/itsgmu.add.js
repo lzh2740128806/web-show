@@ -9,4 +9,6 @@ $(function(){
    })
 });
 
-alert(window.innerWidth);
+window.onresize = function(){
+    alert(document.querySelector('.section').offsetWidth + ':' + document.querySelector('.section').offsetHeight)
+}
