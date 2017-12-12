@@ -8,3 +8,5 @@ $(function(){
        m.toggleClass('mm-rotate');
    })
 });
+
+alert(window.innerWidth);
