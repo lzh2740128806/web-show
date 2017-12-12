@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>itsGmu</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/itsgmu.css"/>
+<link rel="stylesheet" href="css/itsgmu.add.css">
+<style>
+	.section { 
+		/*font: 50px "Montserrat", sans-serif; */
+	}
+</style>
+
+</head>
+
+<body>
+<header class="nav-type-1" id="home">
+    <nav class="navbar navbar-fixed-top">
+      <div class="navigation-overlay sticky">
+        <div class="container-fluid relative">
+          <div class="row">
+
+            <div class="navbar-header clearfix">
+
+              <!-- Logo -->
+              <div class="logo-container">
+                <div class="logo-wrap shrink local-scroll">
+                  <a href="#home">
+                    <img class="logo" width="60" src="images/gmu-logo.png" alt="logo">
+                  </a>
+                </div>
+              </div>
+
+				<div class="mobile-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+            </div>
+			  <!-- end navbar-header -->
+
+
+            <div class="col-md-8 nav-wrap">
+              <div class="collapse navbar-collapse text-center" id="navbar-collapse">
+                
+                <ul id="menu" class="nav navbar-nav local-scroll text-center">
+
+                  <li data-menuanchor="page2">
+                    <a href="#page2">
+                    	<div class="nav_text">Home</div>
+                    	<div class="under_line"></div>
+                    </a>
+                  </li>
+                  <li data-menuanchor="page3">
+                    <a href="#page3">
+                    	<div class="nav_text">About Us</div>
+                    	<div class="under_line"></div>
+                    </a>
+                  </li>
+                  <li data-menuanchor="page4">
+                    <a href="#page4">
+                    	<div class="nav_text">Top User</div>
+                    	<div class="under_line"></div>
+                    </a>
+                  </li>
+                  <li data-menuanchor="page5">
+                    <a href="#page5">
+                    	<div class="nav_text">Activities</div>
+                    	<div class="under_line"></div>
+                    </a>
+                  </li>                         
+                  <li data-menuanchor="page6">
+                    <a href="#page6">
+                    	<div class="nav_text">Partners</div>
+                    	<div class="under_line"></div>
+                    </a>
+                  </li>
+                  <li data-menuanchor="page7">
+                    <a href="#page7">
+                    	<div class="nav_text">Contact Us</div>
+                    	<div class="under_line"></div>
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div> <!-- end col -->
+
+            <div class="menu-socials ">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-wechat"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-weibo"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-wechat"></i></a>
+                </li>
+              </ul>
+            </div>
+            
+          </div> <!-- end row -->
+        </div> <!-- end container -->
+      </div> <!-- end navigation -->
+    </nav> <!-- end navbar -->
+
+  </header> <!-- end navigation -->
+<div id="gmuTotalPage">
+
+	<div class="section">
+		<div class="hero-wrap video-container text-center">
+	      <div class="container container-full-height">
+	        <div class="video-wraps">
+	          <div class="video-playing">
+              <video id="video" src="video/video.mp4" ></video>
+	          </div>
+	          <div class="video-img"></div>
+	        </div>
+	      </div>
+		</div>
+		<div class="buttons-holder mt-30" id="mobile-btn">
+			<!--<div class="btn-upLine">
+				<hr class="pull-left">
+				<div class="hr-circle"></div>
+				<hr class="pull-right">
+			</div>-->
+			<a href="https://itunes.apple.com/cn/app/ji-mu-mu-she-jiao-qu-wei-zhao/id1094615747?mt=8" class="btn btn-lg btn-transparent">IOS</a>
+			<a href="http://android-pakeage.bj.bcebos.com/gmu_release_1.0.4_2017-09-20_local.apk" class="btn btn-lg btn-transparent">android</a>
+		</div>
+	</div>
+
+	<div class="section" style="background-color:#000">
+		<div class="hero-wrap video-container text-center">
+	      <div class=" container-full-height">
+	        <div class="hero-holder">
+	          <div class="hero-message text-rotator">
+
+	            <div class="gmu-title">
+					<svg width="100%" height="100%">
+					    <text text-anchor="middle" x="50%" y="50%" class="gmu-text gmu-text-1">
+					       积目青年文化社交平台
+					    </text>
+					    <text text-anchor="middle" x="50%" y="50%" class="gmu-text gmu-text-2">
+					       积目青年文化社交平台
+					    </text>
+					</svg>
+				</div>
+	            <h5 class="hero-subtitle">
+					给空洞的灵魂来一剂猛药，找回青春该有的荡儿。你看到的格格不入只是皮囊的表象，我只是想释放，被认同，逃离束缚庸俗的目光。有一个叫积目的地方，不兜售情色，用兴趣爱好做目的呈现最炫酷的社交，再用独特的视角带你发现、寻找、聆听、感受奇葩的故事、猎奇的视频、颅内高潮的音效，你会知道纹身的内涵、旅行的奥妙、极限的疯狂，还有最尖的果儿等你聊，积目会听到你的尖叫！
+	            </h5>
+
+	          </div>
+	        </div>
+	      </div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="slide">
+			<div class="slideOne_width">
+				<div class="slideOne_width_left">
+					<div>
+						<h1 class="pf-md-h">目的<span class="pf-md">图标</span></h1>
+					</div>
+					<p class="title-instructor">
+						在积目你不再空洞不再单调，别羞涩你的特别。<br/>在这里有28种爱好，你可以掏出你口袋里的骄傲去匹配另一个高傲。<br/>你可以调制你的音乐有人给你配调、你的宠物有人给它洗澡。<br/>你关掉灯有人和你一起品尝发条橙子的味道。<br/>你会翻山越岭水上漂有人陪你一起极限蹦跳。<br/>只要你滑动那手中最炫炸的图标！
+					</p>
+					<div class="slideOne_left_line"></div>
+				</div>
+				<div class="slideOne_width_right">
+					<div>
+						<h1 class="pf-md-h">目的<span class="pf-md">图标</span></h1>
+					</div>
+					<img src="images/slide1.png" alt="">
+					<p class="title-instructor">
+						在积目你不再空洞不再单调，别羞涩你的特别。<br/>在这里有28种爱好，你可以掏出你口袋里的骄傲去匹配另一个高傲。<br/>你可以调制你的音乐有人给你配调、你的宠物有人给它洗澡。<br/>你关掉灯有人和你一起品尝发条橙子的味道。<br/>你会翻山越岭水上漂有人陪你一起极限蹦跳。<br/>只要你滑动那手中最炫炸的图标！
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="slideOne_width">
+				<div class="slideOne_width_left">
+					<div>
+						<h1 class="pf-md-h">发现 <span class="pf-md">积目</span></h1>
+					</div>
+					<p class="title-instructor">
+						这里没有人质疑你的喜好，我知道你口袋里装的都是骄傲。<br/>
+						独有的28个目的语言等你探索，还有什么比猎奇到同伴更让人尖叫。<br/>
+						发现兴趣，探索新奇，距离不是问题。<br/> 不必担心太过夸张，积目给你每一次选择的权利。<br/>在这片纯正的青年文化世界每一个人都有自己的个性和味道。<br/>年轻人就要做自己！
+					</p>
+					<div class="slideOne_left_line"></div>
+				</div>
+				<div class="slideOne_width_right">
+					<div>
+						<h1 class="pf-md-h">发现<span class="pf-md">积目</span></h1>
+					</div>
+					<img src="images/slide2.png" width="300" alt="">
+					<p class="title-instructor">
+						这里没有人质疑你的喜好，我知道你口袋里装的都是骄傲。<br/>
+						独有的28个目的语言等你探索，还有什么比猎奇到同伴更让人尖叫。<br/>
+						发现兴趣，探索新奇，距离不是问题。<br/> 不必担心太过夸张，积目给你每一次选择的权利。<br/>在这片纯正的青年文化世界每一个人都有自己的个性和味道。<br/>年轻人就要做自己！
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="slide">
+			<div class="slideOne_width">
+				<div class="slideOne_width_left">
+					<div>
+						<h1 class="pf-md-h">精彩<span class="pf-md">活动</span></h1>
+					</div>
+					<p class="title-instructor">
+						内心总有孤独的声音在呐喊，渴望在精彩的世界找到共通的精神元。<br/>积目用音乐、极限、电影亦或其它缠绕成震撼人心的同行空间。<br/>在这里一起用饶舌聊聊最感性的话，用影音完成最酷的人生体验。<br/>总之积目的活动定能让你找到最匹配的伙伴，请双手合十躁动狂欢！
+					</p>
+					<div class="slideOne_left_line"></div>
+				</div>
+				<div class="slideOne_width_right">
+					<div>
+						<h1 class="pf-md-h">精彩<span class="pf-md">活动</span></h1>
+					</div>
+					<img src="images/slide3.png" width="300" alt="">
+					<p class="title-instructor">
+						内心总有孤独的声音在呐喊，渴望在精彩的世界找到共通的精神元。<br/>积目用音乐、极限、电影亦或其它缠绕成震撼人心的同行空间。<br/>在这里一起用饶舌聊聊最感性的话，用影音完成最酷的人生体验。<br/>总之积目的活动定能让你找到最匹配的伙伴，请双手合十躁动狂欢！
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="section">
+		<section class="section-wrap pb-0 our-team top-margin" id="about-us">
+	      <div class="container">
+
+	        <div class="row team-row">
+	          <div class="col-md-3 col-lg-3 col-sm-3 team-wrap">
+	            <div class="team-member img-bg-border">
+	              <div class="team-img">
+	                <div class="header">  <!-- 顶部位置 -->
+    					<div class="header-pic">
+    						<img src="images/top1.jpg" class="headPic" id="headPic" alt="">
+    					</div>
+	        			<div class="bullet"></div>	
+	        				
+    				</div>
+    				<div class="clear"></div>
+	              </div>
+	              <div class="img-text-model">
+		              <h2 class="title-name">积目girl</h2>
+		              <h4 class="title-gender">女</h4>
+		              <h6 class="title-age">22</h6>  
+	              </div>         
+	            </div>
+	             <h6 class="team-title">
+					<input id="thinkWord" type="text" placeholder="和她打个招呼吧~~">
+					<button id="sendWord" class="btn btn-default">Send</button>
+	              </h6>
+	          </div> <!-- end team member -->
+
+
+
+
+	          <div class="col-md-9 col-sm-9 col-lg-9 team-wrap">
+	          	<div class="topUser-slide">
+					<ul class="topUser-title">
+						<li>
+							<h2>
+				          		<strong>Top</strong> <span>Users One</span>
+				          	</h2>
+				            <p class="subheading">
+								与众不同才对你的胃口，在趣味灵魂集市，<br/>最放肆的表情，最炫酷的经历，该被更多人看到。最野的世界为你打开新的华丽门，为你心里最酷的角落火上浇油。
+				            </p>
+						</li>
+						<li>
+							<h2>
+				          		<strong>Top</strong> <span>Users Two</span>
+				          	</h2>
+				            <p class="subheading">
+								积目上不止有刘波，还有等待去发现的其他有趣面孔，<br/>如果你担心躁动的心脏会停止跳动，就要接受每天从积目迸发而来的惊喜散落在四周，<br/>美丽的灵魂终究会相遇在宇宙，你准备好了吗？
+				            </p>
+						</li>
+						<li>
+							<h2>
+				          		<strong>Top</strong> <span>Users Three</span>
+				          	</h2>
+				            <p class="subheading">
+								把你的手心交给积目，把你的目光也交给积目，积目将为你匹配到来自这个世界最美好有趣的人儿。<br/>不必担心过于夸张，也不必担心过于张扬，在积目你可以夸张着张扬。
+				            </p>
+						</li>
+			        </ul>
+			    </div>
+	            <div class="col-md-12 col-lg-12 col-sm-6 team-member">
+	            	<div class="list list-girl">
+	                  <ul style="width:200rem">
+	                  	<li class="headTop-girl">
+							<img src="images/top1.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top2">
+							<img src="images/top2.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top3">
+							<img src="images/top3.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top4">
+							<img src="images/top4.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top5">
+							<img src="images/top5.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top6">
+							<img src="images/top5.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top7">
+							<img src="images/top4.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top8">
+							<img src="images/top3.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top9">
+							<img src="images/top2.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top10">
+							<img src="images/top1.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl">
+							<img src="images/top1.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top2">
+							<img src="images/top2.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top3">
+							<img src="images/top3.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top4">
+							<img src="images/top4.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top5">
+							<img src="images/top5.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top6">
+							<img src="images/top5.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top7">
+							<img src="images/top4.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top8">
+							<img src="images/top3.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top9">
+							<img src="images/top2.jpg" class="head-top" alt="">
+	                  	</li>
+	                  	<li class="headTop-girl header-top10">
+							<img src="images/top1.jpg" class="head-top" alt="">
+	                  	</li>
+	                  </ul>
+	                </div>
+                  	<div class="headTop-arrow upArrow headTop-arrow_right">
+                  	</div>
+	            </div>
+
+	            <div class="col-md-12 col-lg-12 col-sm-10 team-member">
+	                <div class="list list-boy">
+	                  	<ul style="width:200rem">
+		                  	<li class="headTop-boy">
+								<img src="images/top1.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top2">
+								<img src="images/top2.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top3">
+								<img src="images/top3.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top4">
+								<img src="images/top4.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top5">
+								<img src="images/top5.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top6">
+								<img src="images/top5.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top7">
+								<img src="images/top4.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top8">
+								<img src="images/top3.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top9">
+								<img src="images/top2.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top10">
+								<img src="images/top1.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy">
+								<img src="images/top1.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top2">
+								<img src="images/top2.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top3">
+								<img src="images/top3.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top4">
+								<img src="images/top4.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top5">
+								<img src="images/top5.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top6">
+								<img src="images/top5.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top7">
+								<img src="images/top4.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top8">
+								<img src="images/top3.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top9">
+								<img src="images/top2.jpg" class="head-top" alt="">
+		                  	</li>
+		                  	<li class="headTop-boy header-top10">
+								<img src="images/top1.jpg" class="head-top" alt="">
+		                  	</li>
+	                  	</ul>
+	                  </div>
+	                  <div class="headTop-arrow downArrow headTop-arrow_right">
+							
+	                  	</div>
+	            </div>
+	          </div>  <!-- end team member -->
+
+	        </div>
+	      </div>
+	    </section> <!-- end our team -->
+	</div>
+	<div class="section">
+		<div class="htmleaf-header text-center">
+			<div class="act-title">精彩活动</div>
+			<div class="act-title-small">
+				<span>内心总有孤独的声音在呐喊，渴望在精彩的世界找到共通的精神元。积目用音乐、极限、电影亦或其它缠绕成震撼人心的同行空间</span>
+				
+			</div>
+		</div>
+		
+		<div id="LoopDiv">
+			<input id="S_Num" type="hidden" value="8" />
+			<div id="starsIF" class="imageflow"> 
+				<img src="images/01.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/02.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/03.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/04.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/05.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/06.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/07.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/08.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/09.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+				<img src="images/10.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
+			</div>
+		</div>
+		<div class="click_button">
+			<div class="prev-button">
+				<img class="img-thumbnail" src="images/left.png" alt="">
+			</div>
+			<div class="next-button">
+				<img class="img-thumbnail" src="images/right.png" alt="">
+			</div>
+		</div>
+		<div class="clear"></div>
+			
+		
+	</div>
+	<div class="section text-center">
+		<div class="container">
+
+	        <div class="row">
+				<div class="htmleaf-header text-center">
+					<div style="font-size:40px">合作伙伴</div>
+					<div style="font-size:20px">
+						<span>感谢有你，你是我的原动力</span>
+					</div>
+				</div>
+				
+				<div class="partnes-pic col-lg-12 col-md-12">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<section class="section-wrap contact" id="contact">
+	      <div class="container">
+
+	        <div class="row heading">
+	          <div class="col-md-6 col-md-offset-3 text-center">
+	            <h2 class="text-center">联系我们</h2>
+	            <p class="subheading">积目期待来自新奇青年文化世界的一切构想，等你！</p>
+	          </div>
+	        </div>
+
+	        <div class="row">
+
+	          <div class="col-md-4 col-lg-4">
+	            <h5>Get in Touch</h5>
+	            <p>Mon-Fri: 8:00 – 20:00</p>
+
+	            <div class="contact-item">
+	              <div class="contact-icon">
+	                <i class="fa fa-map-marker fa-3x"></i>
+	              </div>
+	              <h6>ADDRESS</h6>
+	              <p>北京市 朝阳区<br>
+	              798园区791路B10-3</p>
+	            </div> <!-- end address -->
+
+	            <div class="contact-item">
+	              <div class="contact-icon">
+	                <i class="fa fa-mobile fa-3x"></i>
+	              </div>
+	              <h6>CALL US</h6>
+	              <span>+800-1234-567</span>
+	            </div> <!-- end phone number -->
+
+	            <div class="contact-item">
+	              <div class="contact-icon">
+	                <i class="fa fa-envelope-o fa-2x"></i>
+	              </div>
+	              <h6>E-MAIL</h6>
+	              <p href="mailto:enigmasupport@gmail.com">support@itsgmu.com</p>
+	            </div> <!-- end email -->
+
+	          </div>
+
+	          <div class="col-md-8 col-lg-8">
+	            <form id="contact-form" action="#">
+
+	              <div class="row contact-row">
+	                <div class="col-md-6 col-lg-6 contact-name">
+	                  <input name="name" id="name" type="text" placeholder="NAME">
+	                </div>
+	                <div class="col-md-6 col-lg-6 contact-email">
+	                  <input name="mail" id="mail" type="email" placeholder="PHONE">
+	                </div>
+	              </div>
+
+	              <input name="subject" id="subject" type="text" placeholder="EMAIL"> 
+	              <textarea name="comment" id="comment" placeholder="TEXT HERE"></textarea>
+	              <input type="submit" class="btn btn-lg" value="SEND MESSAGE" id="submit-message">
+	              <div id="msg" class="message"></div>
+	            </form>
+	          </div> <!-- end col -->
+
+	        </div>
+	      </div>
+    	</section> <!-- end contact -->
+	</div>
+</div>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+window.JQuery || document.write("<script src='js/jquery-1.9.1.min.js'><\/script>");
+</script>
+<script src="js/plugins.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/gmuAllPage.js"></script>
+<script src="js/imageflow.js"></script>
+<script src="js/itsgmu.js"></script>
+<script src="js/itsgmu.add.js"></script>
+
+</body>
+</html>
