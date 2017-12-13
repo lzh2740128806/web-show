@@ -60,8 +60,9 @@ $(function () {
 // });
 
 $(function(){
+    var w = window.innerHeight;
     function setsize(){
-        $('body').css('height',window.innerHeight);
+        $('body').css('height',w);
     }
     setsize();
     window.onresize = setsize;
