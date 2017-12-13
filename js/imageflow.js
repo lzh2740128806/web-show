@@ -1,4 +1,14 @@
 ﻿/* ImageFlow constructor */
+
+// var ww = window.innerWidth;
+// var img_num = 3;
+// if(ww<=768){
+//     img_num = 2;
+// }
+// if(ww<=414){
+//     img_num = 1;
+// }
+
 function ImageFlow() {
     /* Setting option defaults */
     this.defaults =

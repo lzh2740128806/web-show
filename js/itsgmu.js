@@ -66,15 +66,15 @@ $(function(){
 	};
 	
 	//合作方img自动加载
-	var parAuto = function (){
-		var imgUrl = "",plen = 37; //plen为合作方数量加一
-		var parentImgWidth = $('.partnes-pic').width(),
-			childImgWidth = parseInt(parentImgWidth/8);
-		for (var i = 1; i < plen; i++) {
-			imgUrl = '<img class="img-partners col-lg-2 col-md-2 col-sm-2" src="images/'+i+'.png">';
-			$('.partnes-pic').append(imgUrl);
-		}
-	}();
+	// var parAuto = function (){
+	// 	var imgUrl = "",plen = 37; //plen为合作方数量加一
+	// 	var parentImgWidth = $('.partnes-pic').width(),
+	// 		childImgWidth = parseInt(parentImgWidth/8);
+	// 	for (var i = 1; i < plen; i++) {
+	// 		imgUrl = '<img class="img-partners col-lg-2 col-md-2 col-sm-2" src="images/'+i+'.png">';
+	// 		$('.partnes-pic').append(imgUrl);
+	// 	}
+	// }();
 
 
 		//一个内容整体的宽度
@@ -136,7 +136,14 @@ $(function(){
 	});
 
 	//top user下的img点击
+	var canchange = true;
 	$('.head-top').click(function(){
+
+		if(canchange){
+			canchange = false;
+		}else{
+			return false;
+		}
 		src = $(this).context.src; 
 		ele();
 		//点击头像添加旋转
@@ -152,6 +159,8 @@ $(function(){
 				//然后删除顶层img  露出下层追加的img  并把顶层img的id和样式赋值给底层img
 				$('#headPic').remove();
 				$('.sndPic').attr('id','headPic').removeClass('sndPic').addClass('headPic');
+
+				canchange = true;
 			},800);
 			//200ms首先把追加内容加入标签
 			$('.header-pic').append(_imgPic);
@@ -191,7 +200,6 @@ $(function(){
 				$('#video').get(0).play(); 
 			}	
 		},
-		resize: true,
 	});
 
 
@@ -200,32 +208,50 @@ $(function(){
 /***************************/
 
 	;(function(){
-		var src = [];
+		var srcs = [];
 		var img = $('.mobilenone .headTop-girl >img');
+		var t = $('#touch-change >.team-member')[0];
 		img.each(function (i,el) {
-			src.push(el.src);
+			srcs.push(el.src);
         });
 
 
+		t.ontouchend = function (e) {
 
-		// ele();
-		// //点击头像添加旋转
-		// $('#headPic').addClass('head-rotate');
-		// //向img顶层元素后追加一个img
-		// var _imgPic = $('<img id="sndPic" class="sndPic" src="'+$(this).context.src+'">');
-        //
-		// //点击头像更换img背景
-		// $('.img-bg-border').css('background','url('+$(this).context.src+') no-repeat')
-        //
-		// setTimeout(function () {
-		// 	setTimeout(function () {
-		// 		//然后删除顶层img  露出下层追加的img  并把顶层img的id和样式赋值给底层img
-		// 		$('#headPic').remove();
-		// 		$('.sndPic').attr('id','headPic').removeClass('sndPic').addClass('headPic');
-		// 	},800);
-		// 	//200ms首先把追加内容加入标签
-		// 	$('.header-pic').append(_imgPic);
-		// },200);
+			if(canchange){
+				canchange = false;
+			}else{
+				return false;
+			}
+
+			var src = srcs[Math.floor(Math.random()*srcs.length)];
+            ele();
+            //点击头像添加旋转
+            $('#headPic').addClass('head-rotate');
+            //向img顶层元素后追加一个img
+            var _imgPic = $('<img id="sndPic" class="sndPic" src="'+src+'">');
+
+            //点击头像更换img背景
+            $('.img-bg-border').css('background','url('+src+') no-repeat')
+
+            setTimeout(function () {
+                setTimeout(function () {
+                    //然后删除顶层img  露出下层追加的img  并把顶层img的id和样式赋值给底层img
+                    $('#headPic').remove();
+                    $('.sndPic').attr('id','headPic').removeClass('sndPic').addClass('headPic');
+
+                    canchange = true;
+                },600);
+                //200ms首先把追加内容加入标签
+                $('.header-pic').append(_imgPic);
+            },200);
+
+            return false;
+        };
+
+
+
+
 	}
 	)();
 

@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="css/style.css"/>
 <link rel="stylesheet" href="css/itsgmu.css"/>
 <link rel="stylesheet" href="css/itsgmu.add.css">
+<link rel="stylesheet" href="css/swiper.min.css">
 <style>
 	.section { 
 		/*font: 50px "Montserrat", sans-serif; */
@@ -46,7 +47,7 @@
 			  <!-- end navbar-header -->
 
 
-            <div class="col-md-8 nav-wrap">
+            <div class="col-md-8 nav-wrap" style="float: left">
               <div class="collapse navbar-collapse text-center" id="navbar-collapse">
                 
                 <ul id="menu" class="nav navbar-nav local-scroll text-center">
@@ -119,7 +120,7 @@
 	      <div class="container container-full-height">
 	        <div class="video-wraps">
 	          <div class="video-playing">
-              <video id="video" src="video/video.mp4" ></video>
+              <video id="video" poster="images/spyl.png" src="video/video.mp4" ></video>
 	          </div>
 	          <div class="video-img"></div>
 	        </div>
@@ -243,7 +244,7 @@
 
 	        <div class="row team-row">
 
-	          <div class=" team-wrap">
+	          <div class="team-wrap" id="touch-change">
 	            <div class="team-member img-bg-border">
 	              <div class="team-img">
 
@@ -456,18 +457,52 @@
 		
 		<div id="LoopDiv">
 			<input id="S_Num" type="hidden" value="8" />
-			<div id="starsIF" class="imageflow"> 
-				<img src="images/01.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/02.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/03.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/04.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/05.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/06.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/07.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/08.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/09.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-				<img src="images/10.jpg" longdesc="#" width="280" height="300" alt="Picture" /> 
-			</div>
+			<!--<div id="starsIF" class="imageflow">-->
+				<!--<img src="images/01.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/02.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/03.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/04.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/05.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/06.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/07.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/08.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/09.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+				<!--<img src="images/10.jpg" longdesc="#" width="280" height="300" alt="Picture" />-->
+			<!--</div>-->
+            <div id="swiper-stars" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/02.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/03.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/04.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/05.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/06.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/07.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/08.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/09.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/10.jpg" alt="">
+                    </div>
+                </div>
+            </div>
 		</div>
 		<div class="click_button">
 			<div class="prev-button">
@@ -481,37 +516,90 @@
 			
 		
 	</div>
+
 	<div class="section text-center">
-		<div class="container">
+		<div class="container" id="hzqylogo">
 
 	        <div class="row">
 				<div class="htmleaf-header text-center">
-					<div style="font-size:40px">合作伙伴</div>
-					<div style="font-size:20px">
+					<div style="font-size:30px">合作伙伴</div>
+					<div style="font-size:14px">
 						<span>感谢有你，你是我的原动力</span>
 					</div>
 				</div>
 				
 				<div class="partnes-pic col-lg-12 col-md-12">
-
+                    <div id="hzqy" class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/1.png" alt="">
+                                    <img src="images/2.png" alt="">
+                                    <img src="images/3.png" alt="">
+                                    <img src="images/4.png" alt="">
+                                    <img src="images/5.png" alt="">
+                                    <img src="images/6.png" alt="">
+                                    <img src="images/7.png" alt="">
+                                    <img src="images/8.png" alt="">
+                                    <img src="images/9.png" alt="">
+                                    <img src="images/10.png" alt="">
+                                    <img src="images/11.png" alt="">
+                                    <img src="images/12.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/13.png" alt="">
+                                    <img src="images/14.png" alt="">
+                                    <img src="images/15.png" alt="">
+                                    <img src="images/16.png" alt="">
+                                    <img src="images/17.png" alt="">
+                                    <img src="images/18.png" alt="">
+                                    <img src="images/19.png" alt="">
+                                    <img src="images/20.png" alt="">
+                                    <img src="images/21.png" alt="">
+                                    <img src="images/22.png" alt="">
+                                    <img src="images/23.png" alt="">
+                                    <img src="images/24.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <img src="images/25.png" alt="">
+                                    <img src="images/26.png" alt="">
+                                    <img src="images/27.png" alt="">
+                                    <img src="images/28.png" alt="">
+                                    <img src="images/29.png" alt="">
+                                    <img src="images/30.png" alt="">
+                                    <img src="images/31.png" alt="">
+                                    <img src="images/32.png" alt="">
+                                    <img src="images/33.png" alt="">
+                                    <img src="images/34.png" alt="">
+                                    <img src="images/35.png" alt="">
+                                    <img src="images/36.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</div>
 	</div>
+
 	<div class="section">
 		<section class="section-wrap contact" id="contact">
-	      <div class="container">
+	      <div class="container" id="lxwm">
 
-	        <div class="row heading">
-	          <div class="col-md-6 col-md-offset-3 text-center">
+	        <div class="heading">
+	          <div class="text-center lx-wrap">
 	            <h2 class="text-center">联系我们</h2>
 	            <p class="subheading">积目期待来自新奇青年文化世界的一切构想，等你！</p>
 	          </div>
 	        </div>
 
-	        <div class="row">
+	        <div class="lxwm-row">
 
-	          <div class="col-md-4 col-lg-4">
+	          <div class="lxwm-left">
 	            <h5>Get in Touch</h5>
 	            <p>Mon-Fri: 8:00 – 20:00</p>
 
@@ -520,7 +608,7 @@
 	                <i class="fa fa-map-marker fa-3x"></i>
 	              </div>
 	              <h6>ADDRESS</h6>
-	              <p>北京市 朝阳区<br>
+	              <p>北京市 朝阳区<br class="mobilebr">
 	              798园区791路B10-3</p>
 	            </div> <!-- end address -->
 
@@ -542,7 +630,7 @@
 
 	          </div>
 
-	          <div class="col-md-8 col-lg-8">
+	          <div class="lxwm-right">
 	            <form id="contact-form" action="#">
 
 	              <div class="row contact-row">
@@ -577,9 +665,17 @@ window.JQuery || document.write("<script src='js/jquery-1.9.1.min.js'><\/script>
 <script src="js/plugins.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/gmuAllPage.js"></script>
-<script src="js/imageflow.js"></script>
+<!--<script src="js/imageflow.js"></script>-->
+<script src="js/swiper.min.js"></script>
 <script src="js/itsgmu.js"></script>
 <script src="js/itsgmu.add.js"></script>
+
+
+<script>
+    var swiper2 = new Swiper('#hzqy', {
+        autoplay: 4000,
+    })
+</script>
 
 </body>
 </html>
