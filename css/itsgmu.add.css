@@ -544,6 +544,9 @@ body,
   }
 }
 @media (max-width: 414px) {
+  .heading {
+    margin-top: 0;
+  }
   .heading h2 {
     font-size: 20px;
   }
