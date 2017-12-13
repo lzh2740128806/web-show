@@ -61,7 +61,7 @@ $(function () {
 
 $(function(){
     function setsize(){
-        $('body').css('width',window.innerWidth);
+        $('body').css('height',window.innerHeight);
     }
     setsize();
     window.onresize = setsize;
