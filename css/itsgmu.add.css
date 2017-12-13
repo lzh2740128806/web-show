@@ -69,7 +69,7 @@
 }
 #video {
   height: 100%;
-  object-fit: cover;
+  background: #000;
 }
 #mobile-btn {
   position: absolute;
