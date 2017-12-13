@@ -52,5 +52,4 @@ $('input').on('change',function () {
 });
 $('input').on('blur',function () {
     $(window).trigger('resize');
-    alert(window.innerHeight+':'+$('.section').eq(0).height());
 });
