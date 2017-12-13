@@ -200,6 +200,10 @@ $(function(){
 				$('#video').get(0).play(); 
 			}	
 		},
+        afterResize: function(){
+        	console.log(1);
+		},
+		miniresize: true,
 	});
 
 
