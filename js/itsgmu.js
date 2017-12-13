@@ -175,11 +175,12 @@ $(function(){
 	$('.headTop-arrow').on('click', smallArrow); //top user小头像点击滑动
 
 	//全屏翻页
-	$('#gmuTotalPage').gmuAllPage({
+	$('#gmuTotalPage').fullpage({
 		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7'], //每页name
 		menu: '#menu', //目标id
 		afterRender: function () {
             //playing the video
+			alert(1);
             $('#video').get(0).play(); //内容渲染结束播放首页背景视频
         },
         afterLoad: function(anchorLink, index){ //内容加载结束
