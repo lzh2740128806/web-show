@@ -1,5 +1,5 @@
 
-
+//导航
 $(function(){
    var m = $('.mobile-menu');
    var l = $('#navbar-collapse');
@@ -14,7 +14,7 @@ $(function(){
    })
 });
 
-
+//精彩活动
 $(function () {
     var ww = window.innerWidth;
     var img_num = 4;
@@ -43,4 +43,13 @@ $(function () {
             disabledClass: 'my-button-disabled',
         },
     })
+});
+
+//window resize
+
+$('input').on('change',function () {
+    $(window).trigger('resize');
+});
+$('input').on('blur',function () {
+    $(window).trigger('resize');
 });

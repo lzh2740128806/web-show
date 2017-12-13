@@ -89,11 +89,12 @@ body,
 }
 #mobile-btn .btn.btn-transparent {
   margin: 0;
-  padding: 5px 10px;
+  padding: 5px 0;
   width: 15%;
   min-width: 90px;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
+  text-align: center;
 }
 .gmu-text {
   font-size: 64px;
