@@ -49,7 +49,9 @@ $(function () {
 
 $('input').on('change',function () {
     $(window).trigger('resize');
+    alert($('#gmuTotalPage').scrollTop());
 });
 $('input').on('blur',function () {
     $(window).trigger('resize');
+    alert($('#gmuTotalPage').scrollTop());
 });

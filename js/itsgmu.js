@@ -180,7 +180,6 @@ $(function(){
 		menu: '#menu', //目标id
 		afterRender: function () {
             //playing the video
-			alert(1);
             $('#video').get(0).play(); //内容渲染结束播放首页背景视频
         },
         afterLoad: function(anchorLink, index){ //内容加载结束
