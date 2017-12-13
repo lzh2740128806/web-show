@@ -46,15 +46,23 @@ $(function () {
 });
 
 //window resize
-$('input').on('focus',function () {
-    $(window).trigger('resize');
-    alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
-});
-$('input').on('change',function () {
-    $(window).trigger('resize');
-    alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
-});
-$('input').on('blur',function () {
-    $(window).trigger('resize');
-    alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
+// $('input').on('focus',function () {
+//     $(window).trigger('resize');
+//     alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
+// });
+// $('input').on('change',function () {
+//     $(window).trigger('resize');
+//     alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
+// });
+// $('input').on('blur',function () {
+//     $(window).trigger('resize');
+//     alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
+// });
+
+$(function(){
+    function setsize(){
+        $('body').css('width',window.innerWidth);
+    }
+    setsize();
+    window.onresize = setsize;
 });
