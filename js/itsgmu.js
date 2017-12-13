@@ -175,7 +175,7 @@ $(function(){
 	$('.headTop-arrow').on('click', smallArrow); //top user小头像点击滑动
 
 	//全屏翻页
-	$('#gmuTotalPage').fullpage({
+	$('#gmuTotalPage').gmuAllPage({
 		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7'], //每页name
 		menu: '#menu', //目标id
 		afterRender: function () {
