@@ -203,8 +203,11 @@ body,
   }
 }
 @media (max-width: 414px) {
+  .slideOne_width {
+    width: 90%;
+  }
   .slideOne_width_right img {
-    width: 12rem;
+    width: 15rem;
   }
   .slideOne_width_right > div .pf-md-h {
     font-size: 30px;
@@ -215,12 +218,12 @@ body,
   .slideOne_width_right .title-instructor {
     margin-top: 30px;
     margin-bottom: -45px;
-    height: 220px;
+    height: 144px;
     text-align: left;
     font-family: 'pfMd';
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 16px;
   }
   .fp-controlArrow.fp-next {
     right: 1rem;
@@ -235,11 +238,11 @@ body,
 }
 @media (max-width: 375px) {
   .slideOne_width_right img {
-    width: 10rem;
+    width: 13rem;
   }
   .slideOne_width_right .title-instructor {
-    height: 220px;
-    font-size: 13px;
+    height: 144px;
+    font-size: 12px;
   }
 }
 @media (max-width: 320px) {
@@ -415,6 +418,7 @@ body,
 }
 .prev-button,
 .next-button {
+  display: none;
   z-index: 9999;
 }
 #swiper-stars {
@@ -502,8 +506,12 @@ body,
   }
 }
 @media (max-width: 414px) {
-  .heading {
-    display: none;
+  .heading h2 {
+    font-size: 20px;
+  }
+  .heading p {
+    margin-bottom: 1rem;
+    font-size: 14px;
   }
   .heading .lx-wrap {
     width: 100%;

@@ -207,9 +207,12 @@ html,body,.section{
   }
 }
 @media (max-width: 414px) {
+  .slideOne_width{
+    width: 90%;
+  }
   .slideOne_width_right{
     img{
-      width: 12rem;
+      width: 15rem;
     }
     >div .pf-md-h{
       font-size: 30px;
@@ -220,12 +223,12 @@ html,body,.section{
     .title-instructor {
       margin-top: 30px;
       margin-bottom: -45px;
-      height: 220px;
+      height: 144px;
       text-align: left;
       font-family: 'pfMd';
-      font-size: 14px;
+      font-size: 13px;
       letter-spacing: 1px;
-      line-height: 20px;
+      line-height: 16px;
     }
   }
   .fp-controlArrow.fp-next {
@@ -242,11 +245,11 @@ html,body,.section{
 @media (max-width: 375px) {
   .slideOne_width_right{
     img{
-      width: 10rem;
+      width: 13rem;
     }
     .title-instructor{
-      height: 220px;
-      font-size: 13px;
+      height: 144px;
+      font-size: 12px;
     }
   }
 }
@@ -442,6 +445,7 @@ html,body,.section{
   margin-right: auto;
 }
 .prev-button, .next-button{
+  display: none;
   z-index: 9999;
 }
 #swiper-stars{
@@ -563,7 +567,14 @@ html,body,.section{
 
   //标题
   .heading{
-    display: none;
+    //display: none;
+    h2{
+      font-size: 20px;
+    }
+    p{
+      margin-bottom: 1rem;
+      font-size: 14px;
+    }
   }
   .heading .lx-wrap{
     width: 100%;

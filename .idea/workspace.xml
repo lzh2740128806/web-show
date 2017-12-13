@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07bf420-2e1b-4408-95dd-6af2e636253a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.fullpage.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/itsgmu.add.css" afterPath="$PROJECT_DIR$/css/itsgmu.add.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/itsgmu.add.less" afterPath="$PROJECT_DIR$/css/itsgmu.add.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itsgmu.html" afterPath="$PROJECT_DIR$/itsgmu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/itsgmu.add.js" afterPath="$PROJECT_DIR$/js/itsgmu.add.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +20,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="itsgmu.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itsgmu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="itsgmu.add.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/itsgmu.add.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="208" column="26" lean-forward="false" selection-start-line="208" selection-start-column="26" selection-end-line="208" selection-end-column="26" />
               <folding>
                 <element signature="e#93#354#0" expanded="false" />
                 <element signature="e#365#397#0" expanded="false" />
@@ -37,89 +60,37 @@
                 <element signature="e#2445#2466#0" expanded="false" />
                 <element signature="e#2494#3042#0" expanded="false" />
                 <element signature="e#3069#3303#0" expanded="false" />
-                <element signature="e#3330#3893#0" expanded="false" />
-                <element signature="e#3920#4060#0" expanded="false" />
-                <element signature="e#4087#4153#0" expanded="false" />
-                <element signature="e#4192#4490#0" expanded="false" />
-                <element signature="e#4518#5182#0" expanded="false" />
-                <element signature="e#5210#5391#0" expanded="false" />
-                <element signature="e#5417#5490#0" expanded="false" />
-                <element signature="e#5517#6289#0" expanded="false" />
-                <element signature="e#6316#6441#0" expanded="false" />
-                <element signature="e#6468#7082#0" expanded="false" />
-                <element signature="e#7108#7168#0" expanded="false" />
-                <element signature="e#7195#7215#0" expanded="false" />
-                <element signature="e#7229#7283#0" expanded="false" />
-                <element signature="e#7298#7429#0" expanded="false" />
-                <element signature="e#7458#7495#0" expanded="false" />
-                <element signature="e#7522#7526#0" expanded="false" />
-                <element signature="e#7553#7870#0" expanded="false" />
-                <element signature="e#7570#7591#0" expanded="false" />
-                <element signature="e#7609#7633#0" expanded="false" />
-                <element signature="e#7646#7663#0" expanded="false" />
-                <element signature="e#7678#7698#0" expanded="false" />
-                <element signature="e#7713#7734#0" expanded="false" />
-                <element signature="e#7897#7901#0" expanded="false" />
-                <element signature="e#7928#8040#0" expanded="false" />
-                <element signature="e#8068#8103#0" expanded="false" />
-                <element signature="e#8113#8218#0" expanded="false" />
-                <element signature="e#8229#8246#0" expanded="false" />
-                <element signature="e#8258#8275#0" expanded="false" />
-                <element signature="e#8303#8336#0" expanded="false" />
-                <element signature="e#8363#8643#0" expanded="false" />
-                <element signature="e#8670#9309#0" expanded="false" />
-                <element signature="e#9336#9829#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itsgmu.add.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/itsgmu.add.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-              <folding>
-                <element signature="e#18#309#0" expanded="false" />
-                <element signature="e#334#987#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itsgmu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itsgmu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="667" column="40" lean-forward="true" selection-start-line="667" selection-start-column="40" selection-end-line="667" selection-end-column="40" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itsgmu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/itsgmu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-              <folding>
-                <element signature="e#261#801#0" expanded="false" />
-                <element signature="e#851#1028#0" expanded="false" />
-                <element signature="e#1080#1551#0" expanded="false" />
-                <element signature="e#1602#1869#0" expanded="false" />
-                <element signature="e#2706#3774#0" expanded="false" />
-                <element signature="e#3820#4036#0" expanded="false" />
-                <element signature="e#4114#4806#0" expanded="false" />
-                <element signature="e#5707#6857#0" expanded="false" />
+                <element signature="e#3330#3932#0" expanded="false" />
+                <element signature="e#4126#4192#0" expanded="false" />
+                <element signature="e#4231#4529#0" expanded="false" />
+                <element signature="e#4557#5221#0" expanded="false" />
+                <element signature="e#5249#5430#0" expanded="false" />
+                <element signature="e#5456#5529#0" expanded="false" />
+                <element signature="e#5556#6328#0" expanded="false" />
+                <element signature="e#6355#6480#0" expanded="false" />
+                <element signature="e#6507#7121#0" expanded="false" />
+                <element signature="e#7147#7207#0" expanded="false" />
+                <element signature="e#7234#7271#0" expanded="false" />
+                <element signature="e#7285#7339#0" expanded="false" />
+                <element signature="e#7354#7485#0" expanded="false" />
+                <element signature="e#7514#7551#0" expanded="false" />
+                <element signature="e#7578#7582#0" expanded="false" />
+                <element signature="e#7609#7926#0" expanded="false" />
+                <element signature="e#7626#7647#0" expanded="false" />
+                <element signature="e#7665#7689#0" expanded="false" />
+                <element signature="e#7702#7719#0" expanded="false" />
+                <element signature="e#7734#7754#0" expanded="false" />
+                <element signature="e#7769#7790#0" expanded="false" />
+                <element signature="e#7953#7957#0" expanded="false" />
+                <element signature="e#7984#8096#0" expanded="false" />
+                <element signature="e#8124#8159#0" expanded="false" />
+                <element signature="e#8169#8274#0" expanded="false" />
+                <element signature="e#8285#8302#0" expanded="false" />
+                <element signature="e#8314#8331#0" expanded="false" />
+                <element signature="e#8359#8392#0" expanded="false" />
+                <element signature="e#8419#8699#0" expanded="false" />
+                <element signature="e#8726#9467#0" expanded="false" />
+                <element signature="e#9494#9987#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -143,11 +114,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../gmuAllPage.js" />
-        <option value="$PROJECT_DIR$/css/itsgmu.add.less" />
         <option value="$PROJECT_DIR$/js/gmuAllPage.js" />
         <option value="$PROJECT_DIR$/js/itsgmu.js" />
-        <option value="$PROJECT_DIR$/itsgmu.html" />
         <option value="$PROJECT_DIR$/js/itsgmu.add.js" />
+        <option value="$PROJECT_DIR$/css/itsgmu.add.less" />
+        <option value="$PROJECT_DIR$/itsgmu.html" />
       </list>
     </option>
   </component>
@@ -232,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513130271089</updated>
-      <workItem from="1513130276951" duration="11696000" />
+      <workItem from="1513130276951" duration="13889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11696000" />
+    <option name="totallyTimeSpent" value="13889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -284,10 +255,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="90" column="17" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1508934485000" expanded="true" signature="82197:82238" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -301,10 +269,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/itsgmu.add.less">
+    <entry file="file://$PROJECT_DIR$/js/itsgmu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="204" column="0" lean-forward="true" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding>
+            <element signature="e#261#801#0" expanded="false" />
+            <element signature="e#851#1028#0" expanded="false" />
+            <element signature="e#1080#1551#0" expanded="false" />
+            <element signature="e#1602#1869#0" expanded="false" />
+            <element signature="e#2706#3774#0" expanded="false" />
+            <element signature="e#3820#4036#0" expanded="false" />
+            <element signature="e#4114#4806#0" expanded="false" />
+            <element signature="e#5707#6857#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/itsgmu.add.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#309#0" expanded="false" />
+            <element signature="e#334#987#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/itsgmu.add.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="208" column="26" lean-forward="false" selection-start-line="208" selection-start-column="26" selection-end-line="208" selection-end-column="26" />
           <folding>
             <element signature="e#93#354#0" expanded="false" />
             <element signature="e#365#397#0" expanded="false" />
@@ -321,46 +317,45 @@
             <element signature="e#2445#2466#0" expanded="false" />
             <element signature="e#2494#3042#0" expanded="false" />
             <element signature="e#3069#3303#0" expanded="false" />
-            <element signature="e#3330#3893#0" expanded="false" />
-            <element signature="e#3920#4060#0" expanded="false" />
-            <element signature="e#4087#4153#0" expanded="false" />
-            <element signature="e#4192#4490#0" expanded="false" />
-            <element signature="e#4518#5182#0" expanded="false" />
-            <element signature="e#5210#5391#0" expanded="false" />
-            <element signature="e#5417#5490#0" expanded="false" />
-            <element signature="e#5517#6289#0" expanded="false" />
-            <element signature="e#6316#6441#0" expanded="false" />
-            <element signature="e#6468#7082#0" expanded="false" />
-            <element signature="e#7108#7168#0" expanded="false" />
-            <element signature="e#7195#7215#0" expanded="false" />
-            <element signature="e#7229#7283#0" expanded="false" />
-            <element signature="e#7298#7429#0" expanded="false" />
-            <element signature="e#7458#7495#0" expanded="false" />
-            <element signature="e#7522#7526#0" expanded="false" />
-            <element signature="e#7553#7870#0" expanded="false" />
-            <element signature="e#7570#7591#0" expanded="false" />
-            <element signature="e#7609#7633#0" expanded="false" />
-            <element signature="e#7646#7663#0" expanded="false" />
-            <element signature="e#7678#7698#0" expanded="false" />
-            <element signature="e#7713#7734#0" expanded="false" />
-            <element signature="e#7897#7901#0" expanded="false" />
-            <element signature="e#7928#8040#0" expanded="false" />
-            <element signature="e#8068#8103#0" expanded="false" />
-            <element signature="e#8113#8218#0" expanded="false" />
-            <element signature="e#8229#8246#0" expanded="false" />
-            <element signature="e#8258#8275#0" expanded="false" />
-            <element signature="e#8303#8336#0" expanded="false" />
-            <element signature="e#8363#8643#0" expanded="false" />
-            <element signature="e#8670#9309#0" expanded="false" />
-            <element signature="e#9336#9829#0" expanded="false" />
+            <element signature="e#3330#3932#0" expanded="false" />
+            <element signature="e#4126#4192#0" expanded="false" />
+            <element signature="e#4231#4529#0" expanded="false" />
+            <element signature="e#4557#5221#0" expanded="false" />
+            <element signature="e#5249#5430#0" expanded="false" />
+            <element signature="e#5456#5529#0" expanded="false" />
+            <element signature="e#5556#6328#0" expanded="false" />
+            <element signature="e#6355#6480#0" expanded="false" />
+            <element signature="e#6507#7121#0" expanded="false" />
+            <element signature="e#7147#7207#0" expanded="false" />
+            <element signature="e#7234#7271#0" expanded="false" />
+            <element signature="e#7285#7339#0" expanded="false" />
+            <element signature="e#7354#7485#0" expanded="false" />
+            <element signature="e#7514#7551#0" expanded="false" />
+            <element signature="e#7578#7582#0" expanded="false" />
+            <element signature="e#7609#7926#0" expanded="false" />
+            <element signature="e#7626#7647#0" expanded="false" />
+            <element signature="e#7665#7689#0" expanded="false" />
+            <element signature="e#7702#7719#0" expanded="false" />
+            <element signature="e#7734#7754#0" expanded="false" />
+            <element signature="e#7769#7790#0" expanded="false" />
+            <element signature="e#7953#7957#0" expanded="false" />
+            <element signature="e#7984#8096#0" expanded="false" />
+            <element signature="e#8124#8159#0" expanded="false" />
+            <element signature="e#8169#8274#0" expanded="false" />
+            <element signature="e#8285#8302#0" expanded="false" />
+            <element signature="e#8314#8331#0" expanded="false" />
+            <element signature="e#8359#8392#0" expanded="false" />
+            <element signature="e#8419#8699#0" expanded="false" />
+            <element signature="e#8726#9467#0" expanded="false" />
+            <element signature="e#9494#9987#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itsgmu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="667" column="40" lean-forward="true" selection-start-line="667" selection-start-column="40" selection-end-line="667" selection-end-column="40" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -370,34 +365,6 @@
             <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/itsgmu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding>
-            <element signature="e#261#801#0" expanded="false" />
-            <element signature="e#851#1028#0" expanded="false" />
-            <element signature="e#1080#1551#0" expanded="false" />
-            <element signature="e#1602#1869#0" expanded="false" />
-            <element signature="e#2706#3774#0" expanded="false" />
-            <element signature="e#3820#4036#0" expanded="false" />
-            <element signature="e#4114#4806#0" expanded="false" />
-            <element signature="e#5707#6857#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/itsgmu.add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-          <folding>
-            <element signature="e#18#309#0" expanded="false" />
-            <element signature="e#334#987#0" expanded="false" />
           </folding>
         </state>
       </provider>

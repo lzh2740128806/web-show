@@ -45,16 +45,6 @@ $(function () {
     })
 });
 
-// $('input').on('focus',function () {
-//     $(window).trigger('resize');
-// });
-// $('input').on('change',function () {
-//     $(window).trigger('resize');
-// });
-// $('input').on('blur',function () {
-//     $(window).trigger('resize');
-// });
-
 $(function(){
     var w = window.innerHeight;
     function setsize(){
