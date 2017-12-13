@@ -45,19 +45,15 @@ $(function () {
     })
 });
 
-//window resize
-// $('input').on('focus',function () {
-//     $(window).trigger('resize');
-//     alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
-// });
-// $('input').on('change',function () {
-//     $(window).trigger('resize');
-//     alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
-// });
-// $('input').on('blur',function () {
-//     $(window).trigger('resize');
-//     alert($('#gmuTotalPage').scrollTop()+":"+$('#gmuTotalPage').css('transform'));
-// });
+$('input').on('focus',function () {
+    $(window).trigger('resize');
+});
+$('input').on('change',function () {
+    $(window).trigger('resize');
+});
+$('input').on('blur',function () {
+    $(window).trigger('resize');
+});
 
 $(function(){
     var w = window.innerHeight;
