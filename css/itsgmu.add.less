@@ -110,26 +110,35 @@ html,body,.section{
 //积目青年交流平台--section2
 .gmu-text {
   font-size: 64px;
-  @media (min-width: 320px){
-    font-size: 20px;
+  @media (max-width: 1024px){
+    font-size: 60px;
   }
-  @media (min-width: 375px){
-    font-size: 25px;
-  }
-  @media (min-width: 414px){
-    font-size: 28px;
-  }
-  @media (min-width: 768px){
+  @media (max-width: 768px){
     font-size: 50px;
   }
-  @media (min-width: 1024px){
-    font-size: 60px;
+  @media (max-width: 414px){
+    font-size: 23px;
+  }
+  @media (max-width: 375px){
+    font-size: 22px;
+  }
+  @media (max-width: 320px){
+    font-size: 20px;
   }
 }
 .hero-subtitle{
   padding: 0 2%;
   @media (max-width: 768px){
     font-size: 14px;
+  }
+  @media (max-width: 414px){
+    width: 80%;
+  }
+  @media (max-width: 375px){
+    width: 85%;
+  }
+  @media (max-width: 320px){
+    width: 100%;
   }
 }
 @media screen and (max-width: 1400px){
@@ -139,6 +148,11 @@ html,body,.section{
     letter-spacing: 8px;
     margin-top: 5rem;
     margin-bottom: -2.9rem;
+  }
+}
+@media (max-width: 414px) {
+  .gmu-title{
+    margin-top: 0;
   }
 }
 
@@ -445,8 +459,12 @@ html,body,.section{
   margin-right: auto;
 }
 .prev-button, .next-button{
-  display: none;
   z-index: 9999;
+}
+@media (max-width: 414px) {
+  .prev-button, .next-button{
+    display: none;
+  }
 }
 #swiper-stars{
   margin: 0 auto;
@@ -456,16 +474,16 @@ html,body,.section{
 
 
 //合作企业
-#hzqy{
-  .swiper-slide{
-    >div{
-      text-align: center;
-      img{
-        width: 20%;
-        margin: 1px auto;
-      }
-    }
+#hzqy-pc{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  img{
+    width: 90/6%;
   }
+}
+#hzqy{
+  display: none;
 }
 
 @media (max-width: 1270px) {
@@ -493,12 +511,21 @@ html,body,.section{
     right: 1em;
   }
 
+  #hzqy-pc{
+    display: none;
+  }
+
+  #hzqylogo{
+    margin-top: 40px;
+  }
+
   #hzqy{
+    display: block;
     .swiper-slide{
       >div{
         img{
-          width: 40%;
-          margin-bottom: 5px;
+          width: 41%;
+          margin-bottom: 10px;
         }
       }
     }
@@ -652,5 +679,10 @@ html,body,.section{
   }
   .lxwm-left >p{
     margin-bottom: 0;
+  }
+}
+@media (max-width: 320px) {
+  .heading .subheading{
+    display: none;
   }
 }

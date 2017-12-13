@@ -14,16 +14,18 @@ $(function(){
    })
 });
 
-//精彩活动
 $(function () {
     var ww = window.innerWidth;
     var img_num = 4;
+    var hz;
     if(ww<=768){
         img_num = 3;
     }
     if(ww<=414){
         img_num = 2;
+        hz = true;
     }
+    //精彩活动
     var swiper = new Swiper('#swiper-stars', {
         autoplay: 4000,
         loop: true,
@@ -42,7 +44,13 @@ $(function () {
             prevEl: '.next-button',
             disabledClass: 'my-button-disabled',
         },
-    })
+    });
+    //合作企业
+    if(hz){
+        var swiper2 = new Swiper('#hzqy', {
+            autoplay: 4000,
+        })
+    }
 });
 
 $(function(){

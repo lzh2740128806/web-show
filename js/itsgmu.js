@@ -56,13 +56,15 @@ $(function(){
 	};
 
 	//top User 3页文案内容轮播
+	var slideTop_timer = null;
 	var slideTop = function (){
+		slideTop_timer &&　clearTimeout(slideTop_timer);
 		var li_width = $('ul.topUser-title li').width(); //计算ul所占宽度
 		$('ul.topUser-title').animate({left:-(li_width)},1500,function() {
 			var txt = $(this).find('li:first');
 			$('ul.topUser-title').append(txt).css('left',0);
 		});
-		setTimeout(slideTop,5000) //循环执行
+		slideTop_timer = setTimeout(slideTop,5000) //循环执行
 	};
 	
 	//合作方img自动加载
