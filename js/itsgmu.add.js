@@ -61,3 +61,17 @@ $(function(){
     setsize();
     window.onresize = setsize;
 });
+
+//目的图标
+window.onload = function(){
+    var ite = $('.mobile-mdtb .item');
+    var scroll_p = $('.mdtb-slide .arti');
+    $('#mdtb .fp-scrollable').scroll(function () {
+        var s = $(this).scrollTop();
+        ite.each(function (i) {
+           var h = $(window).height();
+           var op = s - (i - 1) * (h + scroll_p.eq(0).height());
+           $(this).css('opacity', op / h);
+        });
+    });
+};

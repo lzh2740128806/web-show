@@ -203,6 +203,7 @@ $(function(){
 			}	
 		},
 		miniresize: true,
+        scrollOverflow: true,
 	});
 
 
