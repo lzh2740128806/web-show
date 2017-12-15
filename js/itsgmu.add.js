@@ -62,6 +62,7 @@ $(function(){
     window.onresize = setsize;
 });
 
+/*
 //目的图标
 window.onload = function(){
     var ite = $('.mobile-mdtb .item');
@@ -74,4 +75,4 @@ window.onload = function(){
            $(this).css('opacity', op / h);
         });
     });
-};
+};*/

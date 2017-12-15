@@ -183,6 +183,17 @@ $(function(){
 		afterRender: function () {
             //playing the video
             $('#video').get(0).play(); //内容渲染结束播放首页背景视频
+
+            var ite = $('.mobile-mdtb .item');
+            var scroll_p = $('.mdtb-slide .arti');
+            $('#mdtb .fp-scrollable').scroll(function () {
+                var s = $(this).scrollTop();
+                ite.each(function (i) {
+                    var h = $(window).height();
+                    var op = s - (i - 1) * (h + scroll_p.eq(0).height());
+                    $(this).css('opacity', op / h);
+                });
+            });
         },
         afterLoad: function(anchorLink, index){ //内容加载结束
         	// index为页数 从1开始
