@@ -186,7 +186,7 @@ $(function(){
 
 	//全屏翻页
 	$('#gmuTotalPage').gmuAllPage({
-		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7'], //每页name
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7','page8'], //每页name
 		menu: '#menu', //目标id
 		afterRender: function () {
 			if(!isWeiXin()){

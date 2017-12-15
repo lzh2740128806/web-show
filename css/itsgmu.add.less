@@ -32,6 +32,11 @@ html,body,.section{
   }
 }
 
+@media (max-width: 1400px) {
+  .navbar-nav > li > a{
+    padding: 0 20px;
+  }
+}
 @media screen and (max-width:1275px){
   .nav-wrap{
     width: auto;
@@ -757,5 +762,107 @@ html,body,.section{
 @media (max-width: 320px) {
   .heading .subheading{
     display: none;
+  }
+}
+
+
+
+//new
+#new-section{
+  .swiper-pagination{
+    display: none;
+    width: 100%;
+    .swiper-pagination-bullet{
+      margin: 0 5px;
+      border-radius: 8px;
+      transition: .5s linear;
+      opacity: .4;
+    }
+    .swiper-pagination-bullet-active{
+      width: 20px;
+      opacity: 1;
+    }
+  }
+  @media(max-width: 414px){
+    .swiper-pagination{
+      display: block;
+    }
+  }
+}
+.new-wrap{
+  width: 80%;
+  margin: 80px auto 0;
+  text-align: center;
+  @media(max-width: 414px){
+    margin-top: 40px;
+    width: 90%;
+  }
+  .swiper-wrapper{
+    ul{
+      font-size: 0;
+      li{
+        display: inline-block;
+        margin: 3%;
+        padding: 5px;
+        width: 44%;
+        background: #fff;
+        box-shadow: 0 0 15px #ccc;
+        .pic-box{
+          margin-bottom: 5px;
+          img{
+            width: 100%;
+            cursor: pointer;
+          }
+        }
+        .text-box{
+          padding: 0 2PX 5px;
+          text-align: left;
+          line-height: normal;
+          .new-name{
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-weight: 900;
+            color: #000;
+          }
+          .new-line{
+            height: 0;
+            width: 40px;
+            border-bottom: 2px solid #000;
+          }
+          .new-intr{
+            margin-top: 5px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 768px){}
+
+
+/**/
+.new-section-big-img{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  text-align: center;
+  font-size: 0;
+  &:before{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+  }
+  img{
+    max-width: 90%;
+    max-height: 90%;
+    vertical-align: middle;
   }
 }

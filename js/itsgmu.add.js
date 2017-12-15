@@ -76,3 +76,29 @@ window.onload = function(){
         });
     });
 };*/
+
+//new
+$(function () {
+   var num = 3;
+   if($(window).width()<=414){
+       num = 1;
+   }
+   var swiper = new Swiper('#new-wrap', {
+       slidesPerView: num,
+       loop: false,
+       pagination: {
+           el: '.swiper-pagination',
+       },
+   });
+
+   var img = $('.new-wrap ul li .pic-box img');
+   var tc = $('.new-section-big-img');
+   var big_img = $('.new-section-big-img img');
+   img.click(function () {
+       big_img.attr('src', img.attr('src'));
+       tc.fadeIn();
+   });
+   tc.click(function () {
+      $(this).fadeOut();
+   });
+});
