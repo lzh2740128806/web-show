@@ -1,3 +1,11 @@
+function isWeiXin(){
+    var ua = window.navigator.userAgent.toLowerCase();
+    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+        return true;
+    }else{
+        return false;
+    }
+}
 $(function(){
 	var sizeScreen = '',ThisOffset = 0,spans="",src,nowPage=0,indexNums=1;
 	
@@ -181,8 +189,10 @@ $(function(){
 		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7'], //每页name
 		menu: '#menu', //目标id
 		afterRender: function () {
-            //playing the video
-            $('#video').get(0).play(); //内容渲染结束播放首页背景视频
+			if(!isWeiXin()){
+                //playing the video
+                $('#video').get(0).play(); //内容渲染结束播放首页背景视频
+			}
 
             var ite = $('.mobile-mdtb .item');
             var scroll_p = $('.mdtb-slide .arti');
@@ -210,7 +220,9 @@ $(function(){
 					nowPage = 0;
 				}	
 			} else {
-				$('#video').get(0).play(); 
+				if(!isWeiXin()){
+                    $('#video').get(0).play();
+				}
 			}	
 		},
 		miniresize: true,
