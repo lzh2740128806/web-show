@@ -102,3 +102,16 @@ $(function () {
       $(this).fadeOut();
    });
 });
+
+//合作企业
+$(function () {
+   var img = $('#hzqy-pc img');
+   img.each(function () {
+      $(this).css('height', $(this).width())
+   });
+   $(window).resize(function () {
+       img.each(function () {
+           $(this).css('height', $(this).width())
+       });
+   });
+});

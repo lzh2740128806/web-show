@@ -163,12 +163,31 @@ html,body,.section{
 
 
 //目的图标--section3
+.slideOne_width{
+  padding-top: 80px;
+  width: 70% !important;
+}
 .slideOne_width_left{
+  padding-top: 45px;
   position: static;
-  width: 62%;
+  width: 50%;
+  >div .pf-md-h{
+    font-size: 40px;
+    .pf-md{
+      font-size: 41px;
+    }
+  }
+  .title-instructor{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
 }
 .slideOne_width_right{
-  width: 38%;
+  width: 40%;
+  text-align: center;
   >div, .title-instructor{
     display: none;
   }
@@ -176,21 +195,21 @@ html,body,.section{
 .pf-md{
   margin-left: 0;
 }
-
+.slideOne_width_right img{
+  top: 0 !important;
+}
 @media (max-width: 768px) {
   .slideOne_width_left{
     .title-instructor{
-      margin-top: 30px;
-      margin-bottom: 30px;
-      line-height: 25px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      line-height: 23px;
       font-size: 14px;
-      font-family: 'pfMd';
-      letter-spacing: 2px;
     }
     >div .pf-md-h{
-      font-size: 40px;
+      font-size: 30px;
       .pf-md{
-        font-size: 41px;
+        font-size: 30.5px;
       }
     }
     .slideOne_left_line{
@@ -354,6 +373,9 @@ html,body,.section{
 
 
 //积目girl
+.headTop-girl{
+  margin-bottom: 2.5rem !important;
+}
 @media (min-width: 1366px) {
   #about-us{
     .team-row{
@@ -366,10 +388,10 @@ html,body,.section{
       text-align: left;
     }
     .team-wrap:first-child{
-      width: 20%;
+      width: 25%;
     }
     .team-wrap:nth-child(2){
-      width: 70%;
+      width: 65%;
     }
   }
 }
@@ -391,10 +413,10 @@ html,body,.section{
       text-align: left;
     }
     .team-wrap:first-child{
-      width: 20%;
+      width: 25%;
     }
     .team-wrap:nth-child(2){
-      width: 70%;
+      width: 65%;
     }
     .img-text-model{
       margin: 10px auto 0;
@@ -537,6 +559,7 @@ html,body,.section{
 }
 .prev-button, .next-button{
   z-index: 9999;
+  top: 50% !important;
 }
 @media (max-width: 414px) {
   .prev-button, .next-button{
@@ -553,14 +576,22 @@ html,body,.section{
 //合作企业
 #hzqy-pc{
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   text-align: center;
+  user-select: none;
   img{
-    width: 90/6%;
+    width: 90/9%;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: scale(.7);
+    border: 1px solid #999;
   }
 }
 #hzqy{
   display: none;
+}
+.partnes-pic{
+  margin: 0 auto !important;
 }
 
 @media (max-width: 1270px) {
@@ -630,6 +661,10 @@ html,body,.section{
   margin: 0 auto;
   width: 50%;
 }
+#lxwm{
+  margin: 0 auto;
+  width: 90%;
+}
 .lxwm-row{
   margin: 0 auto;
   width: 90%;
@@ -644,9 +679,6 @@ html,body,.section{
   width: 62%;
 }
 @media (max-width: 1270px) {
-  #lxwm{
-    width: auto;
-  }
 }
 @media (max-width: 768px) {
   .subheading{
@@ -777,10 +809,13 @@ html,body,.section{
       border-radius: 8px;
       transition: .5s linear;
       opacity: .4;
+      background-clip: content-box;
+      border: 1px solid transparent;
     }
     .swiper-pagination-bullet-active{
-      width: 20px;
-      opacity: 1;
+      opacity: .4;
+      border-color: #000;
+      background: transparent;
     }
   }
   @media(max-width: 414px){
@@ -790,8 +825,8 @@ html,body,.section{
   }
 }
 .new-wrap{
-  width: 80%;
-  margin: 80px auto 0;
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
   @media(max-width: 414px){
     margin-top: 40px;
@@ -803,15 +838,14 @@ html,body,.section{
       li{
         display: inline-block;
         margin: 3%;
-        padding: 5px;
         width: 44%;
         background: #fff;
         box-shadow: 0 0 15px #ccc;
         .pic-box{
-          margin-bottom: 5px;
           img{
             width: 100%;
             cursor: pointer;
+            vertical-align: bottom;
           }
         }
         .text-box{
@@ -838,10 +872,7 @@ html,body,.section{
     }
   }
 }
-
 @media(max-width: 768px){}
-
-
 /**/
 .new-section-big-img{
   position: fixed;
@@ -864,5 +895,211 @@ html,body,.section{
     max-width: 90%;
     max-height: 90%;
     vertical-align: middle;
+  }
+}
+
+
+//music
+.module-tit{
+  padding-top: 80px;
+  padding-bottom: 20px;
+  @media(max-width:414px){
+    padding-top: 40px;
+  }
+  text-align: center;
+  .module-inner-tit{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #000;
+  }
+  .module-inner-small-tit{
+    font-size: 16px;
+  }
+}
+@keyframes rotate {
+  100%{
+    transform:rotate(360deg);
+  }
+}
+#music.playing{
+  .music-wrap{
+    .cd-wrap{
+      .img-box{
+        .cd-play{
+          animation-play-state: running;
+        }
+        .zhen{
+          transform: rotate(0);
+        }
+      }
+    }
+  }
+}
+#music{
+  .music-wrap{
+    margin: 0 auto;
+    width: 70%;
+    @media(max-width: 414px){
+      width: 90%;
+    }
+    .cd-wrap{
+      float: left;
+      width: 50%;
+      @media(max-width: 414px){
+        width: 100%;
+      }
+      .img-box{
+        position: relative;
+        margin: 0 auto;
+        width: 60%;
+        @media(max-width: 414px){
+          width: 60%;
+        }
+        img{
+          width: 100%;
+        }
+        .cd-play{
+          animation: rotate 5s linear infinite;
+          animation-play-state: paused;
+        }
+        .zhen{
+          width: 20%;
+          position: absolute;
+          top: 0;
+          right: 0;
+          transition: transform .3s;
+          transform: rotate(-20deg);
+          transform-origin: 71.428% 10.471%;
+        }
+        .cd-img{
+          position: absolute;
+          margin: auto;
+          width: 60%;
+        }
+      }
+    }
+    .controls-wrap{
+      float: right;
+      width: 50%;
+      @media(max-width: 414px){
+        width: 100%;
+      }
+      .lrc-cont{
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 14px;
+        @media(max-width: 1024px){
+          height: 170px;
+        }
+        @media(max-width: 768px){
+          height: 150px;
+        }
+        @media(max-width: 414px){
+          display: none;
+        }
+        &:before,&:after{
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          width: 100%;
+          height: 30%;
+        }
+        &:before{
+          top: 0;
+          background: linear-gradient(to top, rgba(0,0,0,0), #fff);
+        }
+        &:after{
+          bottom: 0;
+          background: linear-gradient(to bottom, rgba(0,0,0,0), #fff);
+        }
+        .hover{
+          color: #000;
+        }
+      }
+      .cd-controls{
+        .timeline-box{
+          position: relative;
+          margin: 0 auto;
+          padding: 30px 0;
+          width: 80%;
+          @media(max-width: 1024px){
+            padding: 25px 0;
+          }
+          @media(max-width: 1024px){
+            padding: 20px 0;
+          }
+          @media(max-width: 414px){
+            padding: 30px 0;
+            width: 70%;
+          }
+          display: flex;
+          justify-content: center;
+          >div{
+            flex-grow: 1;
+          }
+          .timeline{
+            position: relative;
+            .line{
+              height: 2px;
+              background: rgba(0,0,0,.4);
+            }
+            .played{
+              position: absolute;
+              left: 0;
+              top: 0px;
+              width: 0;
+              height: 2px;
+              background: rgba(0,0,0,.6);
+            }
+            .timedot{
+              position: absolute;
+              left: 0;
+              top: -2px;
+              width: 6px;
+              height: 6px;
+              border-radius: 50%;
+              background: rgba(0,0,0,.8);
+            }
+          }
+          .time{
+            padding: 0 10px;
+            flex-grow: 0;
+            transform: translate(0, -50%);
+            @media(max-width: 414px){
+              display: none;
+            }
+          }
+        }
+        .controls-btn{
+          display: flex;
+          justify-content: center;
+          height: 50px;
+          @media(max-width: 1024px){
+            height: 45px;
+          }
+          @media(max-width: 768px){
+            height: 40px;
+          }
+          @media(max-width: 414px){
+            height: 50px;
+          }
+          .pre, .pause, .nex{
+            margin: 0 15px;
+            height: 100%;
+            cursor: pointer;
+            img{
+              height: 100%;
+            }
+          }
+          .pre{}
+          .pause{}
+          .nex{}
+        }
+      }
+    }
   }
 }
