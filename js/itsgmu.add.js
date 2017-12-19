@@ -16,12 +16,13 @@ $(function(){
 
 $(function () {
     var ww = window.innerWidth;
+    var wh = window.innerHeight;
     var img_num = 4;
     var hz;
     if(ww<=768){
         img_num = 3;
     }
-    if(ww<=414){
+    if( ww<=414 || (ww<=1024 && ww>=768 &&　wh<=1366 && wh>=1024) ){
         img_num = 2;
         hz = true;
     }
@@ -79,10 +80,15 @@ window.onload = function(){
 
 //new
 $(function () {
-   var num = 3;
-   if($(window).width()<=414){
-       num = 1;
-   }
+    var num = 6;
+    var ww = window.innerWidth;
+    var wh = window.innerHeight;
+    if(ww<=414){
+        num = 2;
+    }
+    if(ww<=1024 && ww>=768 &&　wh<=1366 && wh>=1024){
+        num = 3;
+    }
    var swiper = new Swiper('#new-wrap', {
        slidesPerView: num,
        loop: false,
@@ -105,7 +111,7 @@ $(function () {
 
 //合作企业
 $(function () {
-   var img = $('#hzqy-pc img');
+   var img = $('#hzqy-pc img, #hzqy .swiper-slide img');
    img.each(function () {
       $(this).css('height', $(this).width())
    });

@@ -212,7 +212,7 @@ $(function(){
 				//如果不是第一页
 				$('#video').get(0).pause();
 				//如果是第4页
-				if(indexNums == 4){
+				if(indexNums == 6){
 					nowPage = 1;
 					ele(); //执行弹幕效果
 					slideTop();	//执行文案轮播
