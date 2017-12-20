@@ -186,7 +186,7 @@ $(function(){
 
 	//全屏翻页
 	$('#gmuTotalPage').gmuAllPage({
-		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7','page8'], //每页name
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6','page7','page8','page9'], //每页name
 		menu: '#menu', //目标id
 		afterRender: function () {
 			if(!isWeiXin()){
@@ -198,10 +198,11 @@ $(function(){
             var scroll_p = $('.mdtb-slide .arti');
             $('#mdtb .fp-scrollable').scroll(function () {
                 var s = $(this).scrollTop();
+                var ite_h = scroll_p.eq(0).height();
                 ite.each(function (i) {
                     var h = $(window).height();
-                    var op = s - (i - 1) * (h + scroll_p.eq(0).height());
-                    $(this).css('opacity', op / h);
+                    var op = s - (i - 1) * (h + ite_h) - h / 2;
+                    $(this).css('opacity', op / h * 2);
                 });
             });
         },
@@ -225,7 +226,7 @@ $(function(){
 				}
 			}	
 		},
-		miniresize: true,
+		// miniresize: true,
         scrollOverflow: true,
 	});
 

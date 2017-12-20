@@ -14,6 +14,7 @@ $(function(){
    })
 });
 
+//精彩活动//合作企业
 $(function () {
     var ww = window.innerWidth;
     var wh = window.innerHeight;
@@ -97,16 +98,19 @@ $(function () {
        },
    });
 
-   var img = $('.new-wrap ul li .pic-box img');
-   var tc = $('.new-section-big-img');
-   var big_img = $('.new-section-big-img img');
-   img.click(function () {
-       big_img.attr('src', img.attr('src'));
-       tc.fadeIn();
-   });
-   tc.click(function () {
-      $(this).fadeOut();
-   });
+    if(!/Android|webOS|iPhone|iPad|Windows Phone|iPod|BlackBerry|SymbianOS|Nokia|Mobile|Opera Mini/i.test(navigator.userAgent)){
+        var img = $('.new-wrap ul li .pic-box img');
+        var tc = $('.new-section-big-img');
+        var big_img = $('.new-section-big-img img');
+        img.click(function () {
+            big_img.attr('src', img.attr('src'));
+            tc.fadeIn();
+        });
+        tc.click(function () {
+            $(this).fadeOut();
+        });
+    }
+
 });
 
 //合作企业
